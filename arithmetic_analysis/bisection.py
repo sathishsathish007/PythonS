@@ -19,6 +19,7 @@ def bisection(function: Callable[[float], float], a: float, b: float) -> float:
         ...
     ValueError: could not find root in given interval.
     """
+    //hi how are you
     start: float = a
     end: float = b
     if function(a) == 0:  # one of the a or b is a root for the function
